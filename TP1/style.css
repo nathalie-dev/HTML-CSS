@@ -1,0 +1,25 @@
+
+div
+{
+    border-style:solid;
+    border-color:  blue;
+    border-width: 2px;
+}
+
+p{
+    background-color:yellow;
+    text-align: justify;
+    padding: 10px;
+}
+h1{
+    font-family : 'Pacifico', cursive ;
+}
+p{
+    font-family : 'Pacifico', cursive ;
+}
+header{
+    text-align: center;
+    font-size: 50px;
+    color: purple;
+}
+
