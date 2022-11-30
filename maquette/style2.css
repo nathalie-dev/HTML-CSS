@@ -1,0 +1,23 @@
+header{
+    text-align: center;
+    font-size: medium;
+    width: 100%;
+    }
+
+    body{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    border-style: none;
+    background-color: aqua;
+    text-align: left;
+    padding: 20px;
+}
+
+p{
+    padding: 20px;
+    font-weight:bold
+  
+}
