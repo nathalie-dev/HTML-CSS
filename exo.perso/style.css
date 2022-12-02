@@ -1,0 +1,39 @@
+*
+{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.barre{
+  border: 2px solid black;
+  display : flex;
+  justify-content: space-around;
+  }
+
+main{
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+}
+
+  footer{
+    padding-left: 20px;
+    border: 2px solid black;
+    border-radius: 0px 0px 15px 15px ;
+}
+
+.barre li{
+  list-style-type: none ; 
+}
+
+header{
+border: 2px solid black;
+border-radius: 15px 15px 0px 0px ;
+padding-left: 20px;
+}
