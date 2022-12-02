@@ -24,5 +24,28 @@ background-image: url("./assets/images/baniere-star.jpg");
 
 footer{
 display: flex;
-justify-items: center;
+justify-content: space-around;
+}
+.imagesFooter
+{
+width: 30%;
+}
+.logonasa{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    align-items: center;
+}
+#logonasa{
+    width: 80%;
+}
+
+main{
+}
+#imagelogotexte{
+    display: flex;
+}
+#solaire
+{
+    width:100%
 }
