@@ -1,0 +1,29 @@
+header{
+background-image: url("./assets/images/baniere-star.jpg");
+
+}
+
+
+.barre{
+    display: flex;
+    justify-content: space-around;
+    background-color:aquamarine;
+}
+
+.barre li{
+    list-style-type: none ; 
+  }
+
+.bandeau{
+    display: flex;
+    align-items: center;
+}
+#logo
+{
+    height:150px ;
+}
+
+footer{
+display: flex;
+justify-items: center;
+}
