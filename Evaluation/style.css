@@ -1,7 +1,8 @@
 header{
-background-image: url("./assets/images/baniere-star.jpg");
+    background-image: url("./assets/images/baniere-star.jpg"); 
+    color: white;  
+    padding-left: 150px; 
 }
-
 
 .barre{
     display: flex;
@@ -17,35 +18,74 @@ background-image: url("./assets/images/baniere-star.jpg");
     display: flex;
     align-items: center;
 }
-#logo
-{
-    height:150px ;
+
+#logo{
+   height: 120px;
+   width: 120px;
+   padding: 30px;
 }
 
 footer{
 display: flex;
 justify-content: space-around;
 }
+
 .imagesFooter
 {
-width: 30%;
+display: flex;
+justify-content: space-between;
+align-items: flex-end;
+height: 250px;
+padding-left: 0px;
 }
+
 .logonasa{
     display: flex;
     flex-direction: column;
-    width: 20%;
     align-items: center;
 }
+
 #logonasa{
     width: 80%;
 }
 
 main{
+    width: 800px;
+    height: 600px;
 }
 #imagelogotexte{
     display: flex;
 }
+
 #solaire
-{
-    width:100%
+{ 
+    display: flex;
+    flex-direction: row;
+    width: 2000px;
+    height: 300px;
+    padding-block-end: 0%;
+}
+
+ul{
+    color: white;
+    font-size: 2em;
+    margin-top: 100px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+.container{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+@media screen and (max-width: 740px) {
+
+}
+
+figcaption{
+    background-color: grey;
+    border: none;
+    height: 30px;
+    align-items: flex-start;
+    text-align: center;
 }
