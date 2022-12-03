@@ -16,6 +16,10 @@ body{
   justify-content: space-around;
   }
 
+  .barre:active {
+    color: orange;
+  }
+
 main{
   border: 2px solid black;
   display: flex;
@@ -29,7 +33,7 @@ main{
 }
 
 .barre li{
-  list-style-type: none ; 
+  list-style-type: none; 
 }
 
 header{
