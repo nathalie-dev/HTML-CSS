@@ -1,0 +1,58 @@
+body {
+    background-color: #FFE4C3;
+}
+
+ul {
+    list-style: none;
+    text-align: left;
+    color: white;
+}
+
+li {
+    text-decoration: underline;
+    margin-top: auto;
+}
+
+.menuDeBase {
+    background-color: white;
+    margin-block: 5px;
+    display: flex;
+    justify-content: left;
+}
+
+main {
+    background: white;
+    box-shadow: 10px 10px #CCB6D1;
+}
+
+img {
+    max-width: 10em;
+    min-width: 10em;
+}
+
+body {
+    margin: 2% 2% 8% 2%;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.caption {
+    background-color: #8B2BE1;
+}
+
+ol,
+li {
+    display: inline-block;
+}
+
+.photo1{
+padding-left: 20px;
+padding-top: 20px;
+}
+
+.presentation{
+    display: inline-flexbox;
+}
