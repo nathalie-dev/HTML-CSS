@@ -6,11 +6,18 @@ ul {
     list-style: none;
     text-align: left;
     color: white;
+    height: 25px;
 }
 
 li {
     text-decoration: underline;
-    margin-top: auto;
+    margin-top: -7px;
+    margin-left: 1%;
+    padding: 0.7%;
+    font-size: 1em;
+    background-color: #8B2BE1;
+    height: 20px;
+    
 }
 
 .menuDeBase {
@@ -23,15 +30,17 @@ li {
 main {
     background: white;
     box-shadow: 10px 10px #CCB6D1;
+    margin-top: 30px;
 }
 
 img {
-    max-width: 10em;
-    min-width: 10em;
+    max-width: 11em;
+    min-width: 11em;
 }
 
 body {
     margin: 2% 2% 8% 2%;
+    font-size: 15px;
 }
 
 footer {
@@ -39,20 +48,30 @@ footer {
     margin-top: 30px;
 }
 
-.caption {
-    background-color: #8B2BE1;
-}
-
-ol,
-li {
-    display: inline-block;
-}
-
 .photo1{
-padding-left: 20px;
-padding-top: 20px;
+padding-left: 25px;
+padding-top: 25px;
 }
 
 .presentation{
     display: inline-flexbox;
+    text-align: unset;
+    padding-left: 190px;
+    margin-top: -150px;
+}
+
+.portraitChat {
+    padding-bottom: 25px;
+    padding-left: 25px;
+    justify-content: space-evenly;
+}
+
+h2{
+padding-left: 15px;
+margin-top: 50px;
+font-weight: bolder;
+}
+
+p{
+    padding-left: 15px;
 }
